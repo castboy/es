@@ -1,0 +1,289 @@
+{
+    "http_url": "pos.baidu.com/wh/o.htm?ltr=",
+    "local_extent": "High",
+    "local_vname": "ExeHeader",
+    "local_platfrom": "Windows",
+    "local_vtype": "virus",
+    "local_threatname": "virus.Windows.ExeHeader.High",
+    "subfile": "",
+    "threatname": "Virus.DOS.ExeHeader.Retro.268",
+    "log_time": 1.5e+09,
+    "local_enginetype": "kaspersky",
+    "local_logtype": "VDS",
+    "local_engineip": "192.168.1.102",
+    "sourceip": "192.168.1.103",
+    "destip": "192.168.1.104",
+    "sourceport": 520,
+    "destport": 100,
+    "app_file": "/smallfilefile/201783/17/1501746808-98",
+  "xdr": [
+    {
+      "Ftp": {
+        "RspTm": 0,
+        "TransTm": 0,
+        "State": 100,
+        "UserCount": 100,
+        "CurrentDir": 1,
+        "TransMode": 0,
+        "TransType": 0,
+        "FileCount": 0,
+        "FileSize": 0
+      },
+      "Rtsp": {
+        "VideoStreamCount": 100,
+        "ServerEndPort": 100,
+        "ResDelay": 100,
+        "AudeoStreamCount": 100,
+        "Url": "string",
+        "UserAgent": "",
+        "ServerIp": "192.168.1.103",
+        "ClientBeginPort": 100,
+        "ClientEndPort": 100,
+        "ServerBeginPort": 100
+      },
+      "Sip": {
+        "StreamCount": 0,
+        "SignalType": 0,
+        "HangupReason": 0,
+        "Invite": false,
+        "Bye": false,
+        "Malloc": 0,
+        "CallingNo": "",
+        "CalledNo": "",
+        "SessionId": "",
+        "CallDir": 0,
+        "CallType": 0
+      },
+      "Http": {
+        "ServTime": 0,
+        "LastContentTime": 1.56e+09,
+        "FirstResponseTime": 1.56e+09,
+        "RequestTime": 1.56e+09,
+        "ResponseLocation": {
+          "File": "tmp/smallile/http",
+          "Offset": 1024,
+          "Size": 10,
+          "Signature": "nana"
+        },
+        "Response": "",
+        "RequestLocation": {
+          "File": "tmp/smallile/http",
+          "Offset": 2048,
+          "Size": 10,
+          "Signature": "nana"
+        },
+        "Request": "",
+        "Host": "192.168.1.103",
+        "StateCode": 200,
+        "Method": 6,
+        "Version": 3,
+        "HeadFlag": 1,
+        "ServFlag": 0,
+        "RequestFlag": 1,
+        "Browser": 0,
+        "Portal": 0,
+        "ContentLen": 139,
+        "Location": "",
+        "Cookie": "",
+        "Refer": "",
+        "ContentType": "text/html",
+        "UserAgent": "",
+        "XonlineHost": "",
+        "Url": "pos.baidu.com/wh/o.html?ltr="
+      },
+      "Tcp": {
+        "SessionOK": false,
+        "AckCount": 0,
+        "SynAckCount": 0,
+        "SynCount": 0,
+        "SynAckDelay": 0,
+        "AckDelay": 0,
+        "ReportFlag": 1,
+        "CloseReason": 0,
+        "Handshake12": true,
+        "Handshake23": true,
+        "Open": 0,
+        "Close": 0,
+        "RetranDown": 0,
+        "RetranUp": 0,
+        "DisorderDown": 0,
+        "DisorderUp": 0,
+        "FirstRequestDelay": 1061,
+        "FirstResponseDely": 0,
+        "Window": 258,
+        "Mss": 1440
+      },
+      "ServSt": {
+        "TcpDisorderDown": 0,
+        "TcpDisorderUp": 0,
+        "TcpRetranDown": 0,
+        "TcpRetranUp": 0,
+        "FlowUp": 0,
+        "FlowDown": 0,
+        "PktUp": 0,
+        "PktDown": 0,
+        "IpFragUp": 0,
+        "IpFragDown": 0
+      },
+      "ConnTime": {
+        "Start": 1501756923,
+        "End": 1501756923
+      },
+      "ConnEx": {
+        "Over": false,
+        "Dir": false
+      },
+      "Mail": {
+        "Hdr": "string",
+        "AcsType": 0,
+        "MsgType": 0,
+        "RspState": 0,
+        "UserName": "string",
+        "RecverInfo": "string",
+        "Len": 0,
+        "DomainInfo": "string",
+        "RecvAccount": "string"
+      },
+      "Dns": {
+        "RspRecordCount": 0,
+        "ReqCount": 0,
+        "RspCode": 0,
+        "Ips":[ 
+          "string", "string2"
+        ],
+        "PktValid": false,
+        "RspDelay": 0,
+        "ExtraRecordCount": 0,
+        "AuthCnttCount": 0,
+        "Domain": "string",
+        "IpCount": 0,
+        "IpVersion": 0,
+        "Ip": "string"
+      },
+      "Vpn": {
+        "Type": 0
+      },
+      "Proxy": {
+        "Type": 0
+      },
+      "QQ": {
+        "Number": "string"
+      },
+      "App": {
+        "ProtoInfo": 0,
+        "Status": 0,
+        "ClassId": 0,
+        "Proto": 0,
+        "File": "/tmp",
+        "FileLocation": {
+          "File": "tmp/smallile/http",
+          "Offset": 1024,
+          "Size": 10,
+          "Signature": "nana"
+        }
+      },
+      "Ssl": {
+        "FailReason": 0,
+        "Server": {
+          "Verfy": false,
+          "VerfyFailedDesc": "string",
+          "VerfyFailedIdx": 0,
+          "Cert": {
+            "OrganizationUnitName": "string",
+            "OrganizationName": "string",
+            "FileLocation": {
+              "DbName": "string",
+              "TableName": "string",
+              "Signature": "string"
+            },
+            "CommonName": "string",
+            "Version": 0,
+            "SerialNumber": "string",
+            "NotBefore": 0,
+            "NotAfter": 0,
+            "KeyUsage": 0,
+            "CountryName": "string"
+          },
+          "Certs": [
+            {
+              "OrganizationUnitName": "string",
+              "OrganizationName": "string",
+              "FileLocation": {
+                "DbName": "string",
+                "TableName": "string",
+                "Signature": "string"
+              },
+              "CommonName": "string",
+              "Version": 0,
+              "SerialNumber": 0,
+              "NotBefore": 0,
+              "NotAfter": 0,
+              "KeyUsage": 0,
+              "CountryName": "string"
+            }
+          ]
+        },
+        "Client": {
+          "Verfy": true,
+          "VerfyFailedDesc": "string",
+          "VerfyFailedIdx": 0,
+          "Cert": {
+            "OrganizationUnitName": "string",
+            "OrganizationName": "string",
+            "FileLocation": {
+              "DbName": "mysql",
+              "TableName": "string",
+              "Signature": "string"
+            },
+            "CommonName": "string",
+            "Version": 0,
+            "SerialNumber": "string",
+            "NotBefore": 0,
+            "NotAfter": 0,
+            "KeyUsage": 0,
+            "CountryName": "string"
+          },
+          "Certs": [
+            {
+              "OrganizationUnitName": "string",
+              "OrganizationName": "string",
+              "FileLocation": {
+                "DbName": "mysql",
+                "TableName": "string",
+                "Signature": "string"
+              },
+              "CommonName": "string",
+              "Version": 0,
+              "SerialNumber": "string",
+              "NotBefore": 0,
+              "NotAfter": 0,
+              "KeyUsage": 0,
+              "CountryName": "string"
+            }
+          ]
+        }
+      },
+      "Conn": {
+        "Proto": "udp",
+        "Sport": 59247,
+        "Dport": 20480,
+        "Sip": "10.101.79.211",
+        "Dip": "119.75.223.145"
+      },
+      "Time": 1501756923,
+      "Type": 1,
+      "Class": 103,
+      "Ipv4": true,
+      "Id": 0,
+      "Vendor": "",
+      "ConnSt": {
+        "FlowUp": 1401,
+        "FlowDown": 1847,
+        "PktUp": 1,
+        "PktDown": 3,
+        "IpFragUp": 0,
+        "IpFragDown": 0
+      }
+    }
+  ]
+}

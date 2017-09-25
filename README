@@ -1,0 +1,11 @@
+usage:
+
+1)create index
+curl -XPUT '10.88.1.102:9200/apt?pretty'
+
+2)mapping
+curl -XPOST '10.88.1.102:9200/apt?pretty' --data-binary @model
+
+3)import data
+curl -XPOST '10.88.1.102:9200/apt/waf_alert?pretty' --data-binary @waf_alert.data
+curl -XPOST '10.88.1.102:9200/apt/vds_alert?pretty' --data-binary @vds_alert.data
