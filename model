@@ -439,7 +439,7 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "HeadFlag": {
-                                    "type": "integer",
+                                    "type": "bool",
                                     "copy_to": "my_xdr"
                                 },
                                 "ServFlag": {
@@ -1443,7 +1443,7 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "HeadFlag": {
-                                    "type": "integer",
+                                    "type": "bool",
                                     "copy_to": "my_xdr"
                                 },
                                 "ServFlag": {
