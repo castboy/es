@@ -117,7 +117,7 @@
                             "copy_to": "my_xdr"
                         },
                         "Time": {
-                            "type": "integer",
+                            "type": "long",
                             "copy_to": "my_xdr"
                         },
                         "Conn": {
@@ -187,11 +187,11 @@
                         "ConnTime": {
                             "properties": {
                                 "Start": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "End": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 }
                             }
@@ -407,15 +407,15 @@
                                     }
                                 },
                                 "RequestTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "FirstResponseTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "LastContentTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "ServTime": {
@@ -1121,7 +1121,7 @@
                             "copy_to": "my_xdr"
                         },
                         "Time": {
-                            "type": "integer",
+                            "type": "long",
                             "copy_to": "my_xdr"
                         },
                         "Conn": {
@@ -1191,11 +1191,11 @@
                         "ConnTime": {
                             "properties": {
                                 "Start": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "End": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 }
                             }
@@ -1411,15 +1411,15 @@
                                     }
                                 },
                                 "RequestTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "FirstResponseTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "LastContentTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "my_xdr"
                                 },
                                 "ServTime": {
