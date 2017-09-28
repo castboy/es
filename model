@@ -447,7 +447,7 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "RequestFlag": {
-                                    "type": "integer",
+                                    "type": "boolean",
                                     "copy_to": "my_xdr"
                                 },
                                 "Browser": {
@@ -1451,7 +1451,7 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "RequestFlag": {
-                                    "type": "integer",
+                                    "type": "boolean",
                                     "copy_to": "my_xdr"
                                 },
                                 "Browser": {
