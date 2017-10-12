@@ -2031,7 +2031,55 @@
                     "type": "text"
                 }
             }
-        }
+        },
+		"ids_alert": {
+			"properties": {
+				"Time": {
+					"type": "integer",
+					"copy_to": "my_alert"
+				},
+				"Scp_ip": {
+					"type": "string",
+					"copy_to": "my_alert"
+				},				
+				"Scp_port": {
+					"type": "integer",
+					"copy_to": "my_alert"
+				},
+				"Dest_ip": {
+					"type": "string",
+					"copy_to": "my_alert"
+				},
+				"Dest_port": {
+					"type": "integer",
+					"copy_to": "my_alert"
+				},				
+				"Proto": {
+					"type": "integer",
+					"copy_to": "my_alert"
+				},
+				"Byzoro_type": {
+					"type": "string",
+					"copy_to": "my_alert"
+				},
+				"Attack_type": {
+					"type": "string",
+					"copy_to": "my_alert"
+				},
+				"Details": {
+					"type": "string",
+					"copy_to": "my_alert"
+				},	
+				"Severity": {
+					"type": "integer",
+					"copy_to": "my_alert"
+				},	
+				"Engine": {
+					"type": "string",
+					"copy_to": "my_alert"
+				}																		
+			}
+		}
 
     }
 }
