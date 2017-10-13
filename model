@@ -138,10 +138,110 @@
                                     "type": "string",
                                     "copy_to": "my_xdr"
                                 },
+								"SIpInfo": {
+									"properties": {
+										"Country": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Province": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Organization": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Network": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lng": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lat": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"TimeZone": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"UTC": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"RegionalismCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"PhoneCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"CountryCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"ContinentCode": "string",
+										"copy_to": "my_xdr"
+									}
+								},
                                 "Dip": {
                                     "type": "string",
                                     "copy_to": "my_xdr"
-                                }
+                                },
+								"DIpInfo": {
+									"properties": {
+										"Country": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Province": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Organization": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Network": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lng": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lat": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"TimeZone": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"UTC": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"RegionalismCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"PhoneCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"CountryCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"ContinentCode": "string",
+										"copy_to": "my_xdr"
+									}
+								}
                             }
                         },
                         "ConnEx": {
@@ -330,6 +430,56 @@
                                     "type": "string",
                                     "copy_to": "my_xdr"
                                 },
+								"IpInfo": {
+									"properties": {
+										"Country": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Province": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Organization": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Network": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lng": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lat": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"TimeZone": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"UTC": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"RegionalismCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"PhoneCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"CountryCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"ContinentCode": "string",
+										"copy_to": "my_xdr"
+									}
+								},
                                 "Url": {
                                     "type": "string",
                                     "copy_to": "my_xdr"
@@ -646,6 +796,56 @@
                                     "type": "string",
                                     "copy_to": "my_xdr"
                                 },
+								"IpInfo": {
+									"properties": {
+										"Country": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Province": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Organization": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Network": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lng": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"Lat": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"TimeZone": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"UTC": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"RegionalismCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"PhoneCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"CountryCode": "string",
+										"copy_to": "my_xdr"
+									},									
+									"properties": {
+										"ContinentCode": "string",
+										"copy_to": "my_xdr"
+									}
+								},								
                                 "Ips": {
                                     "type": "string",
                                     "copy_to": "my_xdr"
