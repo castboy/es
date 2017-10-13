@@ -2035,7 +2035,7 @@
 		"ids_alert": {
 			"properties": {
 				"Time": {
-					"type": "integer",
+					"type": "long",
 					"copy_to": "my_alert"
 				},
 				"Scp_ip": {
