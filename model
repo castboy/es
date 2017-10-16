@@ -2277,6 +2277,9 @@
 				"Engine": {
 					"type": "string",
 					"copy_to": "my_alert"
+				},
+				"my_alert": {
+					"type": "text"
 				}																		
 			}
 		}
