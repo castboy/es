@@ -2452,11 +2452,11 @@
         },
 		"ids_alert": {
 			"properties": {
-				"Time": {
+				"time": {
 					"type": "long",
 					"copy_to": "my_alert"
 				},
-				"Scp_ip": {
+				"scpIp": {
 					"type": "string",
 					"copy_to": "my_alert"
 				},
@@ -2512,11 +2512,11 @@
 						}
 					}
 				},								
-				"Scp_port": {
+				"scpPort": {
 					"type": "integer",
 					"copy_to": "my_alert"
 				},
-				"Dest_ip": {
+				"destIp": {
 					"type": "string",
 					"copy_to": "my_alert"
 				},
@@ -2572,31 +2572,31 @@
 						}
 					}
 				},
-				"Dest_port": {
+				"destPort": {
 					"type": "integer",
 					"copy_to": "my_alert"
 				},				
-				"Proto": {
+				"protocol": {
 					"type": "integer",
 					"copy_to": "my_alert"
 				},
-				"Byzoro_type": {
+				"byzoroType": {
 					"type": "string",
 					"copy_to": "my_alert"
 				},
-				"Attack_type": {
+				"attackType": {
 					"type": "string",
 					"copy_to": "my_alert"
 				},
-				"Details": {
+				"details": {
 					"type": "string",
 					"copy_to": "my_alert"
 				},	
-				"Severity": {
+				"severity": {
 					"type": "integer",
 					"copy_to": "my_alert"
 				},	
-				"Engine": {
+				"engine": {
 					"type": "string",
 					"copy_to": "my_alert"
 				},
