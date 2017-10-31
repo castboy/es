@@ -6,11 +6,11 @@
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "rule_ver": {
+                "ruleVersion": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "rule_data": {
+                "ruleData": {
                     "type": "text",
                     "copy_to": "my_alert"
                 },
@@ -46,7 +46,7 @@
                     "type": "long",
                     "copy_to": "my_alert"
                 },
-                "hostname": {
+                "hostName": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
@@ -66,31 +66,31 @@
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "rule_file": {
+                "ruleFile": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "rule_line": {
+                "ruleLine": {
                     "type": "integer",
                     "copy_to": "my_alert"
                 },
-                "rule_id": {
+                "ruleId": {
                     "type": "integer",
                     "copy_to": "my_alert"
                 },
-                "sourceip": {
+                "srcIp": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "destip": {
+                "destIp": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "sourceport": {
+                "srcPort": {
                     "type": "integer",
                     "copy_to": "my_alert"
                 },
-                "destport": {
+                "destPort": {
                     "type": "integer",
                     "copy_to": "my_alert"
                 },
@@ -1239,71 +1239,71 @@
         },
         "vds_alert": {
             "properties": {
-                "http_url": {
+                "url": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "local_extent": {
+                "localExtent": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "local_vname": {
+                "localVName": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "local_platform": {
+                "localPlatform": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "local_vtype": {
+                "localVType": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "local_threatname": {
+                "localThreatName": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "subfile": {
+                "subFile": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "threatname": {
+                "threatName": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "log_time": {
+                "logTime": {
                     "type": "integer",
                     "copy_to": "my_alert"
                 },
-                "local_enginetype": {
+                "localEngineType": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "local_logtype": {
+                "localLogType": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "local_engineip": {
+                "localEngineIp": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "sourceip": {
+                "srcIp": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "destip": {
+                "destIp": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
-                "sourceport": {
+                "srcPort": {
                     "type": "integer",
                     "copy_to": "my_alert"
                 },
-                "destport": {
+                "destPort": {
                     "type": "integer",
                     "copy_to": "my_alert"
                 },
-                "app_file": {
+                "filePath": {
                     "type": "string",
                     "copy_to": "my_alert"
                 },
@@ -2459,7 +2459,59 @@
 				"Scp_ip": {
 					"type": "string",
 					"copy_to": "my_alert"
-				},				
+				},
+				"SIpInfo": {
+					"properties": {
+						"srcCountry": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcProvince": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcOrganization": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcNetwork": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcLng": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcLat": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcTimeZone": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcUTC": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcRegionalismCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcPhoneCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcCountryCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"srcContinentCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						}
+					}
+				},								
 				"Scp_port": {
 					"type": "integer",
 					"copy_to": "my_alert"
@@ -2467,6 +2519,58 @@
 				"Dest_ip": {
 					"type": "string",
 					"copy_to": "my_alert"
+				},
+				"DIpInfo": {
+					"properties": {
+						"destCountry": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destProvince": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destOrganization": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destNetwork": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destLng": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destLat": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destTimeZone": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destUTC": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destRegionalismCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destPhoneCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destCountryCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						},									
+						"destContinentCode": {
+							"type": "string",
+							"copy_to": "my_xdr"
+						}
+					}
 				},
 				"Dest_port": {
 					"type": "integer",
