@@ -2416,133 +2416,142 @@
         },
 		"ids_alert": {
 			"properties": {
-				"Time": {
-					"type": "long",
-					"copy_to": "my_alert"
-				},
-				"Src_ip": {
-					"type": "string",
-					"copy_to": "my_alert"
-				},
-				"Src_ip_info": {
+				"xdr": {
+					"type": "nested",
 					"properties": {
-						"Country": {
-							"type": "string",
+						"Time": {
+							"type": "long",
 							"copy_to": "my_xdr"
-						},									
-						"Province": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Organization": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Network": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Lng": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Lat": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"TimeZone": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"UTC": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"RegionalismCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"PhoneCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"CountryCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"ContinentCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						}
+						},
+						"Conn": {
+							"properties": {
+								"Src_ip": {
+									"type": "string",
+									"copy_to": "my_xdr"
+								},
+								"Src_ip_info": {
+									"properties": {
+										"Country": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Province": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Organization": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Network": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Lng": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Lat": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"TimeZone": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"UTC": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"RegionalismCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"PhoneCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"CountryCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"ContinentCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										}
+									}
+								},								
+								"Scp_port": {
+									"type": "integer",
+									"copy_to": "my_xdr"
+								},
+								"Dest_ip": {
+									"type": "string",
+									"copy_to": "my_xdr"
+								},
+								"Dest_ip_info": {
+									"properties": {
+										"Country": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Province": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Organization": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Network": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Lng": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"Lat": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"TimeZone": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"UTC": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"RegionalismCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"PhoneCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"CountryCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										},									
+										"ContinentCode": {
+											"type": "string",
+											"copy_to": "my_xdr"
+										}
+									}
+								},
+								"Dest_port": {
+									"type": "integer",
+									"copy_to": "my_xdr"
+								},				
+								"Proto": {
+									"type": "integer",
+									"copy_to": "my_xdr"
+								}							
+							}
+						}						
 					}
-				},								
-				"Scp_port": {
-					"type": "integer",
-					"copy_to": "my_alert"
-				},
-				"Dest_ip": {
-					"type": "string",
-					"copy_to": "my_alert"
-				},
-				"Dest_ip_info": {
-					"properties": {
-						"Country": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Province": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Organization": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Network": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Lng": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"Lat": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"TimeZone": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"UTC": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"RegionalismCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"PhoneCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"CountryCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						},									
-						"ContinentCode": {
-							"type": "string",
-							"copy_to": "my_xdr"
-						}
-					}
-				},
-				"Dest_port": {
-					"type": "integer",
-					"copy_to": "my_alert"
-				},				
-				"Proto": {
-					"type": "integer",
-					"copy_to": "my_alert"
 				},
 				"Byzoro_type": {
 					"type": "string",
@@ -2572,4 +2581,8 @@
 
     }
 }
+
+
+
+
 
