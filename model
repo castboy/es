@@ -3,13 +3,13 @@
         "waf_alert": {
             "properties": {
                 "Version": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
 				"Rule": {
 					"properties": {
 						"Ver": {
-		                    "type": "string",
+		                    "type": "text",
 		                    "copy_to": "my_alert"
 		                },
 						"Data": {
@@ -25,7 +25,7 @@
 		                    "copy_to": "my_alert"
 		                },
 		                "File": {
-		                    "type": "string",
+		                    "type": "text",
 		                    "copy_to": "my_alert"
 		                }										
 					}
@@ -43,11 +43,11 @@
                     "copy_to": "my_alert"
                 },
                 "Attack": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Msg": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Rev": {
@@ -63,23 +63,23 @@
                     "copy_to": "my_alert"
                 },
                 "Hostname": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Uri": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Unique_id": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Ref": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Tags": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "my_alert": {
@@ -89,7 +89,7 @@
                     "type": "nested",
                     "properties": {
                         "Vendor": {
-                            "type": "string",
+                            "type": "text",
                             "copy_to": "my_xdr"
                         },
                         "Ipv4": {
@@ -123,114 +123,114 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "Sip": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"SIpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
 									
 								},
                                 "Dip": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"DIpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
@@ -420,97 +420,97 @@
                         "Http": {
                             "properties": {
                                 "Host": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"IpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
 								},
                                 "Url": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "XonlineHost": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "UserAgent": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ContentType": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Refer": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Cookie": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Location": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Request": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RequestLocation": {
                                     "properties": {
                                         "File": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "Offset": {
@@ -522,19 +522,19 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "Signature": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         }
                                     }
                                 },
                                 "Response": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ResponseLocation": {
                                     "properties": {
                                         "File": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "Offset": {
@@ -546,7 +546,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "Signature": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         }
                                     }
@@ -608,15 +608,15 @@
                         "Sip": {
                             "properties": {
                                 "CallingNo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "CalledNo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "SessionId": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "CallDir": {
@@ -652,15 +652,15 @@
                         "Rtsp": {
                             "properties": {
                                 "Uri": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "UserAgent": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ServerIp": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ClientBeginPort": {
@@ -744,11 +744,11 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "UserName": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RecverInfo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Len": {
@@ -756,15 +756,15 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "DomainInfo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RecvAccount": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Hdr": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "AcsType": {
@@ -776,7 +776,7 @@
                         "Dns": {
                             "properties": {
                                 "Domain": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "IpCount": {
@@ -788,63 +788,63 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "Ip": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"IpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
 								},								
                                 "Ips": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RspCode": {
@@ -896,7 +896,7 @@
                         "QQ": {
                             "properties": {
                                 "Number": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 }
                             }
@@ -920,14 +920,14 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "File": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "FileLocation": {
                                     "type": "object",
                                     "properties": {
                                         "File": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "Offset": {
@@ -939,7 +939,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "Signature": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         }
                                     }
@@ -959,7 +959,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedDesc": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedIdx": {
@@ -974,7 +974,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -990,34 +990,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -1032,7 +1032,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -1048,34 +1048,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -1091,7 +1091,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedDesc": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedIdx": {
@@ -1106,7 +1106,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -1122,34 +1122,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -1164,7 +1164,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -1180,34 +1180,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -1228,35 +1228,35 @@
         "vds_alert": {
             "properties": {
                 "Local_extent": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Local_vname": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Attack": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Local_platfrom": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Local_vtype": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Local_threatname": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Subfile": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Threatname": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Log_time": {
@@ -1264,15 +1264,15 @@
                     "copy_to": "my_alert"
                 },
                 "Local_enginetype": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Local_logtype": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "Local_engineip": {
-                    "type": "string",
+                    "type": "text",
                     "copy_to": "my_alert"
                 },
                 "my_alert": {
@@ -1282,7 +1282,7 @@
                     "type": "nested",
                     "properties": {
                         "Vendor": {
-                            "type": "string",
+                            "type": "text",
                             "copy_to": "my_xdr"
                         },
                         "Ipv4": {
@@ -1316,114 +1316,114 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "Sip": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"SIpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
 									
 								},
                                 "Dip": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"DIpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
@@ -1613,97 +1613,97 @@
                         "Http": {
                             "properties": {
                                 "Host": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"IpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
 								},
                                 "Url": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "XonlineHost": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "UserAgent": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ContentType": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Refer": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Cookie": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Location": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Request": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RequestLocation": {
                                     "properties": {
                                         "File": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "Offset": {
@@ -1715,19 +1715,19 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "Signature": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         }
                                     }
                                 },
                                 "Response": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ResponseLocation": {
                                     "properties": {
                                         "File": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "Offset": {
@@ -1739,7 +1739,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "Signature": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         }
                                     }
@@ -1801,15 +1801,15 @@
                         "Sip": {
                             "properties": {
                                 "CallingNo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "CalledNo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "SessionId": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "CallDir": {
@@ -1845,15 +1845,15 @@
                         "Rtsp": {
                             "properties": {
                                 "Uri": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "UserAgent": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ServerIp": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "ClientBeginPort": {
@@ -1937,11 +1937,11 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "UserName": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RecverInfo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Len": {
@@ -1949,15 +1949,15 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "DomainInfo": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RecvAccount": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "Hdr": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "AcsType": {
@@ -1969,7 +1969,7 @@
                         "Dns": {
                             "properties": {
                                 "Domain": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "IpCount": {
@@ -1981,63 +1981,63 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "Ip": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
 								"IpInfo": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
 								},								
                                 "Ips": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "RspCode": {
@@ -2089,7 +2089,7 @@
                         "QQ": {
                             "properties": {
                                 "Number": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 }
                             }
@@ -2113,14 +2113,14 @@
                                     "copy_to": "my_xdr"
                                 },
                                 "File": {
-                                    "type": "string",
+                                    "type": "text",
                                     "copy_to": "my_xdr"
                                 },
                                 "FileLocation": {
                                     "type": "object",
                                     "properties": {
                                         "File": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "Offset": {
@@ -2132,7 +2132,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "Signature": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         }
                                     }
@@ -2152,7 +2152,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedDesc": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedIdx": {
@@ -2167,7 +2167,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -2183,34 +2183,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -2225,7 +2225,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -2241,34 +2241,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -2284,7 +2284,7 @@
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedDesc": {
-                                            "type": "string",
+                                            "type": "text",
                                             "copy_to": "my_xdr"
                                         },
                                         "VerfyFailedIdx": {
@@ -2299,7 +2299,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -2315,34 +2315,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -2357,7 +2357,7 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "SerialNumber": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "NotBefore": {
@@ -2373,34 +2373,34 @@
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CountryName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "OrganizationUnitName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "CommonName": {
-                                                    "type": "string",
+                                                    "type": "text",
                                                     "copy_to": "my_xdr"
                                                 },
                                                 "FileLocation": {
                                                     "type": "object",
                                                     "properties": {
                                                         "DbName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "TableName": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         },
                                                         "Signature": {
-                                                            "type": "string",
+                                                            "type": "text",
                                                             "copy_to": "my_xdr"
                                                         }
                                                     }
@@ -2430,57 +2430,57 @@
 						"Conn": {
 							"properties": {
 								"Src_ip": {
-									"type": "string",
+									"type": "text",
 									"copy_to": "my_xdr"
 								},
 								"Src_ip_info": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
@@ -2490,57 +2490,57 @@
 									"copy_to": "my_xdr"
 								},
 								"Dest_ip": {
-									"type": "string",
+									"type": "text",
 									"copy_to": "my_xdr"
 								},
 								"Dest_ip_info": {
 									"properties": {
 										"Country": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Province": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Organization": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Network": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lng": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"Lat": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"TimeZone": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"UTC": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"RegionalismCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"PhoneCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"CountryCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										},									
 										"ContinentCode": {
-											"type": "string",
+											"type": "text",
 											"copy_to": "my_xdr"
 										}
 									}
@@ -2558,19 +2558,19 @@
 					}
 				},
 				"Attack": {
-					"type": "string",
+					"type": "text",
 					"copy_to": "my_alert"
 				},
 				"Byzoro_type": {
-					"type": "string",
+					"type": "text",
 					"copy_to": "my_alert"
 				},
 				"Attack_type": {
-					"type": "string",
+					"type": "text",
 					"copy_to": "my_alert"
 				},
 				"Details": {
-					"type": "string",
+					"type": "text",
 					"copy_to": "my_alert"
 				},	
 				"Severity": {
@@ -2578,7 +2578,7 @@
 					"copy_to": "my_alert"
 				},	
 				"Engine": {
-					"type": "string",
+					"type": "text",
 					"copy_to": "my_alert"
 				},
 				"my_alert": {
