@@ -1235,6 +1235,10 @@
                     "type": "string",
                     "copy_to": "my_alert"
                 },
+                "Attack": {
+                    "type": "string",
+                    "copy_to": "my_alert"
+                },
                 "Local_platfrom": {
                     "type": "string",
                     "copy_to": "my_alert"
@@ -2552,6 +2556,10 @@
 							}
 						}						
 					}
+				},
+				"Attack": {
+					"type": "string",
+					"copy_to": "my_alert"
 				},
 				"Byzoro_type": {
 					"type": "string",
