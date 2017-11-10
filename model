@@ -111,7 +111,7 @@
                         "Conn": {
                             "properties": {
                                 "Proto": {
-                                    "type": "string",
+                                    "type": "integer",
                                     "copy_to": "my_xdr"
                                 },
                                 "Sport": {
@@ -1300,7 +1300,7 @@
                         "Conn": {
                             "properties": {
                                 "Proto": {
-                                    "type": "string",
+                                    "type": "integer",
                                     "copy_to": "my_xdr"
                                 },
                                 "Sport": {
