@@ -106,6 +106,7 @@
                         },
                         "Time": {
                             "type": "date",
+							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
                             "copy_to": "MyXdr"
                         },
                         "Conn": {
@@ -1299,6 +1300,7 @@
                         },
                         "Time": {
                             "type": "date",
+							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
                             "copy_to": "MyXdr"
                         },
                         "Conn": {
@@ -2425,6 +2427,7 @@
 					"properties": {
 						"Time": {
 							"type": "date",
+							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
 							"copy_to": "MyXdr"
 						},
 						"Conn": {
