@@ -39,6 +39,10 @@
                     "copy_to": "MyAlert"
                 },
                 "Severity": {
+                    "type": "integer",
+                    "copy_to": "MyAlert"
+                },
+                "SeverityAppend": {
                     "type": "keyword",
                     "copy_to": "MyAlert"
                 },
@@ -1225,6 +1229,10 @@
             "properties": {
                 "Local_extent": {
                     "type": "text",
+                    "copy_to": "MyAlert"
+                },
+                "SeverityAppend": {
+                    "type": "keyword",
                     "copy_to": "MyAlert"
                 },
                 "Local_vname": {
@@ -2566,6 +2574,10 @@
 					"copy_to": "MyAlert"
 				},	
 				"Severity": {
+					"type": "keyword",
+					"copy_to": "MyAlert"
+				},		
+				"SeverityAppend": {
 					"type": "keyword",
 					"copy_to": "MyAlert"
 				},	
