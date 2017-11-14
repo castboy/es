@@ -2,6 +2,10 @@
     "mappings": {
         "waf_alert": {
             "properties": {
+                "Type": {
+                    "type": "keyword",
+                    "copy_to": "MyAlert"
+                },				
                 "Version": {
                     "type": "text",
                     "copy_to": "MyAlert"
@@ -1232,6 +1236,10 @@
         },
         "vds_alert": {
             "properties": {
+				"Type": {
+                    "type": "keyword",
+                    "copy_to": "MyAlert"
+                },	
                 "Local_extent": {
                     "type": "text",
                     "copy_to": "MyAlert"
@@ -2572,6 +2580,10 @@
 						}						
 					}
 				},
+                "Type": {
+                    "type": "keyword",
+                    "copy_to": "MyAlert"
+                },					
 				"Attack": {
 					"type": "keyword",
 					"copy_to": "MyAlert"
