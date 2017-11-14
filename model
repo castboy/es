@@ -2432,11 +2432,11 @@
 						},
 						"Conn": {
 							"properties": {
-								"Src_ip": {
+								"Sip": {
 									"type": "ip",
 									"copy_to": "MyXdr"
 								},
-								"Src_ip_info": {
+								"SIpInfo": {
 									"properties": {
 										"Country": {
 											"type": "keyword",
@@ -2488,15 +2488,15 @@
 										}
 									}
 								},								
-								"Scp_port": {
+								"SPort": {
 									"type": "integer",
 									"copy_to": "MyXdr"
 								},
-								"Dest_ip": {
+								"Dip": {
 									"type": "ip",
 									"copy_to": "MyXdr"
 								},
-								"Dest_ip_info": {
+								"DIpInfo": {
 									"properties": {
 										"Country": {
 											"type": "keyword",
@@ -2548,7 +2548,7 @@
 										}
 									}
 								},
-								"Dest_port": {
+								"DPort": {
 									"type": "integer",
 									"copy_to": "MyXdr"
 								},				
