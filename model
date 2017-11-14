@@ -115,6 +115,10 @@
                                     "type": "keyword",
                                     "copy_to": "MyXdr"
                                 },
+                                "ProtoAppend": {
+                                    "type": "keyword",
+                                    "copy_to": "MyXdr"
+                                },
                                 "Sport": {
                                     "type": "integer",
                                     "copy_to": "MyXdr"
@@ -1306,6 +1310,10 @@
                         "Conn": {
                             "properties": {
                                 "Proto": {
+                                    "type": "keyword",
+                                    "copy_to": "MyXdr"
+                                },
+                                "ProtoAppend": {
                                     "type": "keyword",
                                     "copy_to": "MyXdr"
                                 },
@@ -2553,6 +2561,10 @@
 									"copy_to": "MyXdr"
 								},				
 								"Proto": {
+									"type": "keyword",
+									"copy_to": "MyXdr"
+								},				
+								"ProtoAppend": {
 									"type": "keyword",
 									"copy_to": "MyXdr"
 								}							
