@@ -157,6 +157,7 @@
 										},									
 										"Lng": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
@@ -216,6 +217,7 @@
 										},									
 										"Lng": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
@@ -1363,6 +1365,7 @@
 										},									
 										"Lng": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
@@ -1422,6 +1425,7 @@
 										},									
 										"Lng": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
@@ -2482,6 +2486,7 @@
 										},									
 										"Lng": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
@@ -2544,6 +2549,7 @@
 										},									
 										"Lng": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
