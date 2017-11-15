@@ -108,10 +108,6 @@
                             "type": "integer",
                             "copy_to": "MyXdr"
                         },
-						"Time": {
-							"type": "integer",
-							"copy_to": "MyXdr"
-						},
                         "TimeAppend": {
                             "type": "date",
 							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
@@ -1314,10 +1310,6 @@
                             "type": "integer",
                             "copy_to": "MyXdr"
                         },
-						"Time": {
-							"type": "integer",
-							"copy_to": "MyXdr"
-						},
                         "TimeAppend": {
                             "type": "date",
 							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
@@ -2449,10 +2441,6 @@
 				"Xdr": {
 					"type": "nested",
 					"properties": {						
-						"Time": {
-							"type": "integer",
-							"copy_to": "MyXdr"
-						},
 						"TimeAppend": {
 							"type": "date",
 							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
