@@ -1320,6 +1320,7 @@
                             "properties": {
                                 "Proto": {
                                     "type": "keyword",
+									"null_value": "",
                                     "copy_to": "MyXdr"
                                 },
                                 "ProtoAppend": {
@@ -2571,6 +2572,7 @@
 								},				
 								"Proto": {
 									"type": "keyword",
+									"null_value": "",
 									"copy_to": "MyXdr"
 								},				
 								"ProtoAppend": {
