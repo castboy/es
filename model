@@ -108,7 +108,11 @@
                             "type": "integer",
                             "copy_to": "MyXdr"
                         },
-                        "Time": {
+						"Time": {
+							"type": "integer",
+							"copy_to": "MyXdr"
+						},
+                        "TimeAppend": {
                             "type": "date",
 							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
                             "copy_to": "MyXdr"
@@ -1310,7 +1314,11 @@
                             "type": "integer",
                             "copy_to": "MyXdr"
                         },
-                        "Time": {
+						"Time": {
+							"type": "integer",
+							"copy_to": "MyXdr"
+						},
+                        "TimeAppend": {
                             "type": "date",
 							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
                             "copy_to": "MyXdr"
@@ -2440,8 +2448,12 @@
 			"properties": {
 				"Xdr": {
 					"type": "nested",
-					"properties": {
+					"properties": {						
 						"Time": {
+							"type": "integer",
+							"copy_to": "MyXdr"
+						},
+						"TimeAppend": {
 							"type": "date",
 							"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
 							"copy_to": "MyXdr"
