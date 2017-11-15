@@ -147,6 +147,11 @@
 											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
+										"City": {
+											"type": "keyword",
+											"null_value": "",
+											"copy_to": "MyXdr"
+										},									
 										"Organization": {
 											"type": "text",
 											"copy_to": "MyXdr"
@@ -204,6 +209,11 @@
 											"copy_to": "MyXdr"
 										},									
 										"Province": {
+											"type": "keyword",
+											"null_value": "",
+											"copy_to": "MyXdr"
+										},									
+										"City": {
 											"type": "keyword",
 											"null_value": "",
 											"copy_to": "MyXdr"
@@ -1357,6 +1367,11 @@
 											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
+										"City": {
+											"type": "keyword",
+											"null_value": "",
+											"copy_to": "MyXdr"
+										},									
 										"Organization": {
 											"type": "text",
 											"copy_to": "MyXdr"
@@ -1414,6 +1429,11 @@
 											"copy_to": "MyXdr"
 										},									
 										"Province": {
+											"type": "keyword",
+											"null_value": "",
+											"copy_to": "MyXdr"
+										},										
+										"City": {
 											"type": "keyword",
 											"null_value": "",
 											"copy_to": "MyXdr"
@@ -2480,6 +2500,11 @@
 											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
+										"City": {
+											"type": "keyword",
+											"null_value": "",
+											"copy_to": "MyXdr"
+										},									
 										"Organization": {
 											"type": "text",
 											"copy_to": "MyXdr"
@@ -2540,6 +2565,11 @@
 											"copy_to": "MyXdr"
 										},									
 										"Province": {
+											"type": "keyword",
+											"null_value": "",
+											"copy_to": "MyXdr"
+										},									
+										"City": {
 											"type": "keyword",
 											"null_value": "",
 											"copy_to": "MyXdr"
