@@ -161,7 +161,8 @@
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
-											"type": "text",
+											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"TimeZone": {
@@ -221,7 +222,8 @@
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
-											"type": "text",
+											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"TimeZone": {
@@ -1369,7 +1371,8 @@
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
-											"type": "text",
+											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"TimeZone": {
@@ -1429,7 +1432,8 @@
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
-											"type": "text",
+											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"TimeZone": {
@@ -2490,7 +2494,8 @@
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
-											"type": "text",
+											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"TimeZone": {
@@ -2553,7 +2558,8 @@
 											"copy_to": "MyXdr"
 										},									
 										"Lat": {
-											"type": "text",
+											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"TimeZone": {
