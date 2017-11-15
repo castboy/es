@@ -144,6 +144,7 @@
 										},									
 										"Province": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Organization": {
@@ -202,6 +203,7 @@
 										},									
 										"Province": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Organization": {
@@ -1348,6 +1350,7 @@
 										},									
 										"Province": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Organization": {
@@ -1406,6 +1409,7 @@
 										},									
 										"Province": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Organization": {
@@ -2465,6 +2469,7 @@
 										},									
 										"Province": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Organization": {
@@ -2526,6 +2531,7 @@
 										},									
 										"Province": {
 											"type": "keyword",
+											"null_value": "",
 											"copy_to": "MyXdr"
 										},									
 										"Organization": {
