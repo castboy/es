@@ -117,6 +117,7 @@
                             "properties": {
                                 "Proto": {
                                     "type": "keyword",
+									"null_value": "",
                                     "copy_to": "MyXdr"
                                 },
                                 "ProtoAppend": {
