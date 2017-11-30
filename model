@@ -84,7 +84,7 @@
                         "Conn": {
                             "properties": {
                                 "Proto": {
-                                    "type": "keyword",
+                                    "type": "integer",
                                     "copy_to": "MyXdr"
                                 },
                                 "ProtoAppend": {
@@ -1336,7 +1336,7 @@
                         "Conn": {
                             "properties": {
                                 "Proto": {
-                                    "type": "keyword",
+                                    "type": "integer",
                                     "copy_to": "MyXdr"
                                 },
                                 "ProtoAppend": {
@@ -2623,7 +2623,7 @@
 									"copy_to": "MyXdr"
 								},				
 								"Proto": {
-									"type": "keyword",
+									"type": "integer",
 									"copy_to": "MyXdr"
 								},				
 								"ProtoAppend": {
