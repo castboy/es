@@ -2668,7 +2668,10 @@
 				},
 				"MyAlert": {
 					"type": "text"
-				}																		
+				},
+				"MyXdr": {
+                    "type": "text"
+                } 																		
 			}
 		}
 
