@@ -2,6 +2,11 @@
     "mappings": {
         "vds_alert": {
             "properties": {
+				"TimeAppend": {
+					"type": "date",
+					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+					"copy_to": "MyXdr"
+				},				
 				"Type": {
                     "type": "keyword",
                     "copy_to": "MyAlert"
@@ -1222,6 +1227,11 @@
         },		
         "waf_alert": {
             "properties": {
+				"TimeAppend": {
+					"type": "date",
+					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+					"copy_to": "MyXdr"
+				},				
                 "Type": {
                     "type": "keyword",
                     "copy_to": "MyAlert"
@@ -2634,6 +2644,11 @@
 						}						
 					}
 				},
+				"TimeAppend": {
+					"type": "date",
+					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+					"copy_to": "MyXdr"
+				},				
                 "Type": {
                     "type": "keyword",
                     "copy_to": "MyAlert"
