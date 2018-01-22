@@ -28,7 +28,7 @@
                     "copy_to": "MyAlert"
                 },
                 "Local_platfrom": {
-                    "type": "text",
+                    "type": "keyword",
                     "copy_to": "MyAlert"
                 },
                 "Local_vtype": {
