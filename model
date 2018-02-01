@@ -6,6 +6,9 @@
 					"type": "date",
 					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
 					"copy_to": "MyXdr"
+				},
+				"TimeIntoDb": {
+					"type": "long"
 				},				
 				"Type": {
                     "type": "keyword",
@@ -1231,7 +1234,10 @@
 					"type": "date",
 					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
 					"copy_to": "MyXdr"
-				},				
+				},	
+				"TimeIntoDb": {
+					"type": "long"
+				},			
                 "Type": {
                     "type": "keyword",
                     "copy_to": "MyAlert"
@@ -2656,6 +2662,9 @@
 					"type": "date",
 					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
 					"copy_to": "MyXdr"
+				},
+				"TimeIntoDb": {
+					"type": "long"
 				},				
                 "Type": {
                     "type": "keyword",
