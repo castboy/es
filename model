@@ -74,11 +74,11 @@
                             "copy_to": "MyXdr"
                         },
                         "Class": {
-                            "type": "integer",
+                            "type": "long",
                             "copy_to": "MyXdr"
                         },
                         "Type": {
-                            "type": "integer",
+                            "type": "long",
                             "copy_to": "MyXdr"
                         },
                         "TimeAppend": {
@@ -89,7 +89,7 @@
                         "Conn": {
                             "properties": {
                                 "Proto": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ProtoAppend": {
@@ -97,11 +97,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Sport": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Dport": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Sip": {
@@ -252,27 +252,27 @@
                         "ConnSt": {
                             "properties": {
                                 "FlowUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FlowDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -292,43 +292,43 @@
                         "ServSt": {
                             "properties": {
                                 "FlowUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FlowDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpDisorderUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpDisorderDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpRetranUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpRetranDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -336,63 +336,63 @@
                         "Tcp": {
                             "properties": {
                                 "DisorderUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "DisorderDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RetranUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RetranDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SynAckDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AckDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ReportFlag": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "CloseReason": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FirstRequestDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FirstResponseDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Window": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Mss": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SynCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SynAckCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AckCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SessionOK": {
@@ -408,11 +408,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Open": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Close": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -514,11 +514,11 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "Offset": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Size": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Signature": {
@@ -538,11 +538,11 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "Offset": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Size": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Signature": {
@@ -564,23 +564,23 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "ServTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ContentLen": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "StateCode": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Method": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Version": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "HeadFlag": {
@@ -588,7 +588,7 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "ServFlag": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RequestFlag": {
@@ -596,11 +596,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Browser": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Portal": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -620,23 +620,23 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "CallDir": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "CallType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "HangupReason": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SignalType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "StreamCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Malloc": {
@@ -664,27 +664,27 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "ClientBeginPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ClientEndPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ServerBeginPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ServerEndPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "VideoStreamCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AudeoStreamCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ResDelay": {
@@ -696,39 +696,39 @@
                         "Ftp": {
                             "properties": {
                                 "State": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "UserCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "CurrentDir": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TransMode": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TransType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FileCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FileSize": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspTm": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TransTm": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -736,11 +736,11 @@
                         "Mail": {
                             "properties": {
                                 "MsgType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspState": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "UserName": {
@@ -752,7 +752,7 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Len": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "DomainInfo": {
@@ -768,7 +768,7 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "AcsType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -780,11 +780,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "IpCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpVersion": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Ip": {
@@ -848,27 +848,27 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "RspCode": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ReqCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspRecordCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AuthCnttCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ExtraRecordCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktValid": {
@@ -880,7 +880,7 @@
                         "Vpn": {
                             "properties": {
                                 "Type": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -888,7 +888,7 @@
                         "Proxy": {
                             "properties": {
                                 "Type": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -904,19 +904,19 @@
                         "App": {
                             "properties": {
                                 "ProtoInfo": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Status": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ClassId": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Proto": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "File": {
@@ -931,11 +931,11 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "Offset": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Size": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Signature": {
@@ -949,7 +949,7 @@
                         "Ssl": {
                             "properties": {
                                 "FailReason": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Server": {
@@ -963,14 +963,14 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "VerfyFailedIdx": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Cert": {
                                             "type": "object",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -978,15 +978,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -1028,7 +1028,7 @@
                                             "type": "nested",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -1036,15 +1036,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -1095,14 +1095,14 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "VerfyFailedIdx": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Cert": {
                                             "type": "object",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -1110,15 +1110,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -1160,7 +1160,7 @@
                                             "type": "nested",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -1168,15 +1168,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -1251,11 +1251,11 @@
 		                   "copy_to": "MyAlert"
 		               	},
 		                "Line": {
-		                    "type": "integer",
+		                    "type": "long",
 		                    "copy_to": "MyAlert"
 		                },
 		                "Id": {
-		                    "type": "integer",
+		                    "type": "long",
 		                    "copy_to": "MyAlert"
 		                },
 		                "File": {
@@ -1265,15 +1265,15 @@
 					}
 				},
                 "Accuracy": {
-                    "type": "integer",
+                    "type": "long",
                     "copy_to": "MyAlert"
                 },
                 "Maturity": {
-                    "type": "integer",
+                    "type": "long",
                     "copy_to": "MyAlert"
                 },
                 "Severity": {
-                    "type": "integer",
+                    "type": "long",
                     "copy_to": "MyAlert"
                 },
                 "SeverityAppend": {
@@ -1289,7 +1289,7 @@
                     "copy_to": "MyAlert"
                 },
                 "Rev": {
-                    "type": "integer",
+                    "type": "long",
                     "copy_to": "MyAlert"
                 },
                 "Client": {
@@ -1331,11 +1331,11 @@
                             "copy_to": "MyXdr"
                         },
                         "Class": {
-                            "type": "integer",
+                            "type": "long",
                             "copy_to": "MyXdr"
                         },
                         "Type": {
-                            "type": "integer",
+                            "type": "long",
                             "copy_to": "MyXdr"
                         },
                         "TimeAppend": {
@@ -1346,7 +1346,7 @@
                         "Conn": {
                             "properties": {
                                 "Proto": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ProtoAppend": {
@@ -1354,11 +1354,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Sport": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Dport": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Sip": {
@@ -1509,27 +1509,27 @@
                         "ConnSt": {
                             "properties": {
                                 "FlowUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FlowDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -1549,43 +1549,43 @@
                         "ServSt": {
                             "properties": {
                                 "FlowUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FlowDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpFragDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpDisorderUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpDisorderDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpRetranUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TcpRetranDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -1593,63 +1593,63 @@
                         "Tcp": {
                             "properties": {
                                 "DisorderUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "DisorderDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RetranUp": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RetranDown": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SynAckDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AckDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ReportFlag": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "CloseReason": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FirstRequestDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FirstResponseDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Window": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Mss": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SynCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SynAckCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AckCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SessionOK": {
@@ -1665,11 +1665,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Open": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Close": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -1775,11 +1775,11 @@
 											"copy_to": "MyXdr"
 										},
                                         "Offset": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Size": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Signature": {
@@ -1803,11 +1803,11 @@
 											"copy_to": "MyXdr"
 										},										
                                         "Offset": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Size": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Signature": {
@@ -1829,23 +1829,23 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "ServTime": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ContentLen": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "StateCode": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Method": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Version": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "HeadFlag": {
@@ -1853,7 +1853,7 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "ServFlag": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RequestFlag": {
@@ -1861,11 +1861,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Browser": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Portal": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -1885,23 +1885,23 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "CallDir": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "CallType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "HangupReason": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "SignalType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "StreamCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Malloc": {
@@ -1929,27 +1929,27 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "ClientBeginPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ClientEndPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ServerBeginPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ServerEndPort": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "VideoStreamCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AudeoStreamCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ResDelay": {
@@ -1961,39 +1961,39 @@
                         "Ftp": {
                             "properties": {
                                 "State": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "UserCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "CurrentDir": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TransMode": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TransType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FileCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "FileSize": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspTm": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "TransTm": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -2001,11 +2001,11 @@
                         "Mail": {
                             "properties": {
                                 "MsgType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspState": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "UserName": {
@@ -2017,7 +2017,7 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "Len": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "DomainInfo": {
@@ -2033,7 +2033,7 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "AcsType": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -2045,11 +2045,11 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "IpCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "IpVersion": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Ip": {
@@ -2113,27 +2113,27 @@
                                     "copy_to": "MyXdr"
                                 },
                                 "RspCode": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ReqCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspRecordCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "AuthCnttCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ExtraRecordCount": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "RspDelay": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "PktValid": {
@@ -2145,7 +2145,7 @@
                         "Vpn": {
                             "properties": {
                                 "Type": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -2153,7 +2153,7 @@
                         "Proxy": {
                             "properties": {
                                 "Type": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 }
                             }
@@ -2169,19 +2169,19 @@
                         "App": {
                             "properties": {
                                 "ProtoInfo": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Status": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "ClassId": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Proto": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "File": {
@@ -2196,11 +2196,11 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "Offset": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Size": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Signature": {
@@ -2214,7 +2214,7 @@
                         "Ssl": {
                             "properties": {
                                 "FailReason": {
-                                    "type": "integer",
+                                    "type": "long",
                                     "copy_to": "MyXdr"
                                 },
                                 "Server": {
@@ -2228,14 +2228,14 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "VerfyFailedIdx": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Cert": {
                                             "type": "object",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -2243,15 +2243,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -2293,7 +2293,7 @@
                                             "type": "nested",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -2301,15 +2301,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -2360,14 +2360,14 @@
                                             "copy_to": "MyXdr"
                                         },
                                         "VerfyFailedIdx": {
-                                            "type": "integer",
+                                            "type": "long",
                                             "copy_to": "MyXdr"
                                         },
                                         "Cert": {
                                             "type": "object",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -2375,15 +2375,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -2425,7 +2425,7 @@
                                             "type": "nested",
                                             "properties": {
                                                 "Version": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "SerialNumber": {
@@ -2433,15 +2433,15 @@
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotBefore": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "NotAfter": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "KeyUsage": {
-                                                    "type": "integer",
+                                                    "type": "long",
                                                     "copy_to": "MyXdr"
                                                 },
                                                 "CountryName": {
@@ -2568,7 +2568,7 @@
 									}
 								},								
 								"SPort": {
-									"type": "integer",
+									"type": "long",
 									"copy_to": "MyXdr"
 								},
 								"Dip": {
@@ -2637,11 +2637,11 @@
 									}
 								},
 								"DPort": {
-									"type": "integer",
+									"type": "long",
 									"copy_to": "MyXdr"
 								},				
 								"Proto": {
-									"type": "integer",
+									"type": "long",
 									"copy_to": "MyXdr"
 								},				
 								"ProtoAppend": {
@@ -2678,7 +2678,7 @@
 					"copy_to": "MyAlert"
 				},	
 				"Severity": {
-					"type": "integer",
+					"type": "long",
 					"copy_to": "MyAlert"
 				},		
 				"SeverityAppend": {
